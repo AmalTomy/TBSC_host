@@ -1,0 +1,38 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+
+# ML-related files to exclude
+evaluate_face_recognition.py
+generate_ml_graphs.py
+train_weather_model.py
+weather_classification_model.keras
+ml_performance_graphs/
+evaluation_data/
+training_history.png
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
